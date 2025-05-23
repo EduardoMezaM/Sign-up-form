@@ -1,0 +1,16 @@
+body{
+    background-image: url("images/smoothieBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+h1{
+    font-family: 'Quicksand';
+}
+h2{
+    font-family: 'Pacifico';
+}
+
+p{
+    font-family: 'Poppins';
+}
