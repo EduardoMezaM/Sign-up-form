@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
+    <link rel="icon" href="images/smoothieLogo.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
@@ -11,25 +12,23 @@
 </head>
 <body>
     <div class="left-container">
-        <img src="images/smoothieLogo.png" alt="Smoothie logo." height="100px" width="auto">
+        <img src="images/smoothieLogo.png" alt="Smoothie logo." height="70px" width="auto" class="logo">
         <h1>Berry Bliss</h1>
-            <footer>Photo by <u>Sara Julie</u> on <u>Unsplash</u></footer>
+        <footer>Photo by <u>Sara Julie</u> on <u>Unsplash</u></footer>
     </div>
     <div class="right-container">
-        <p>Join the <strong>Berry Bliss</strong> family and treat yourself to exclusive offers, first sips of our newest smoothie creations, and sweet surprises delivered straight to your inbox. Signing up is quick and deliciously rewarding — because life’s better with berries, cream, and perks made just for you. <br><br> Start sipping smarter today!</p>
-        <fieldset>
-            <legend>Let's do this!</legend>
-            <form action="#" method="post">
-                
+        <p>Join the <span>Berry Bliss</span> family and treat yourself to exclusive offers, first sips of our newest smoothie creations, and sweet surprises delivered straight to your inbox. Signing up is quick and deliciously rewarding — because life’s better with berries, cream, and perks made just for you. <br><br> Start sipping smarter today!</p>
+        <form action="#" method="post">
+
+            <div class="form-column">
                 <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email" placeholder="jjones@gmail.com">
-             
+                <input type="email" id="email" name="email" placeholder="jjones@gmail.com" required>
                 <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
-                
-                <button type="submit">Create Account</button>
-        </fieldset>
-    </form>
+                <input type="password" id="password" name="password" placeholder="password" minlength="6" maxlength="16">
+                <button type="submit">Log In</button>
+            </div>
+        </form>
+
     <p>Don't have an account? <a href="index.html">Sign Up!</a></p>
     </div>
 </body>
